@@ -1,0 +1,13 @@
+*{
+	box-sizing:border-box;
+	}
+.box{height:8cm;
+width:32%;
+float:left;
+border:2px dotted green;
+text-align:center;
+margin-right:10px;
+margin-bottom:10px;}
+h1{color:red;
+    float:left;
+	padding:3px;}

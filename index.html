@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<title>j query intro</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div>
+
+</div>
+<h1 id="a"></h1>
+<h1 id="b"></h1>
+<h1 id="c"></h1>
+
+<script>
+var d = new Date();
+var e =d.getMonth();
+var f =d.getDay();
+var g =d.getFullYear();
+//document.getElementById("a").innerHTML=e;
+//document.getElementById("ab").innerHTML=f;
+document.getElementById("c").innerHTML=new Date().getFullYear();
+var l=f%7;
+//parseInt(e);
+var Days = ["sunday", "monday","tuesday","wednesday","thursday","friday" ];
+var month = ["january", "februray", "march","april","may","june","july","august","september","october","november","december"];
+var i=e;
+
+document.getElementById("a").innerHTML=Days[l];
+document.getElementById("b").innerHTML=month[i];
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
